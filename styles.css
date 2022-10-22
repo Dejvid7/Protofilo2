@@ -172,8 +172,8 @@ nav ul li a {
     border-radius: 90px;
     left: 27vw;
     top: 90vw;
-    max-width: 800px;
-    max-height: 400px;
+    min-width: 800px;
+
 }
 
 .contact {
@@ -185,4 +185,12 @@ nav ul li a {
 
 }
 
-.contact-bg {}
+.BgContact1 {
+    margin: 0px;
+    position: relative;
+    border-radius: 90px;
+    left: 32vw;
+    top: 90vw;
+
+
+}
