@@ -1,0 +1,158 @@
+* {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2vw;
+}
+
+.glowa {
+    width: 100%;
+    height: 120px;
+    background-color: #2a2b45;
+    border-radius: 25px;
+    position: relative;
+
+}
+
+body,
+html {
+    padding: 0px;
+    height: 100%;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+
+}
+
+nav .logo {
+    width: 160px;
+    cursor: pointer;
+    margin-left: 10vw;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 6vw;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    text-shadow: 0 0 15px #2b00ff;
+}
+
+.napis {
+    color: rgb(230, 215, 215);
+    align-items: center;
+    position: relative;
+    left: 25vw;
+    top: 12vw;
+    font-size: 5vw;
+    animation-duration: 2.5s;
+    animation-name: slidein;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(149, 149, 174), 0 0 5px rgb(192, 192, 212);
+}
+
+
+.Icon {
+
+    height: 124px;
+    width: 124px;
+    position: relative;
+    left: 35vw;
+    top: 55vw;
+
+}
+
+.Icon2 {
+
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 44vw;
+    top: 54vw;
+
+
+}
+
+
+
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.info {
+    width: 100%;
+    padding: 1px;
+    margin: 1px;
+    font-size: 2vw;
+    color: #848484;
+    letter-spacing: 2px;
+    align-items: center;
+    position: relative;
+    left: 29vw;
+    top: 32vw;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(149, 149, 174), 0 0 5px rgb(192, 192, 212);
+}
+
+
+.moreI {
+
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2vw;
+    color: #848484;
+    letter-spacing: 2px;
+    align-items: center;
+    position: relative;
+    left: 29vw;
+    top: 50vw;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(149, 149, 174), 0 0 5px rgb(192, 192, 212);
+}
+
+
+.foot {
+
+    background-color: #2a2b45;
+    position: relative;
+    height: 10vw;
+    margin-top: 100vw;
+    clear: both;
+}
+
+
+
+.footp {
+    margin: 0;
+    align-items: center;
+    position: absolute;
+    left: 40vw;
+    top: 7vw;
+    font-size: 0.5rem;
+}
+
+.foot-main {
+    position: relative;
+    font-size: 0.7rem;
+    left: 40vw;
+    top: 3vw;
+}
