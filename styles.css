@@ -25,9 +25,10 @@ nav {
 }
 
 nav .logo {
-    width: 160px;
+    width: 100px;
     cursor: pointer;
     margin-left: 10vw;
+
 }
 
 nav ul {
@@ -60,11 +61,18 @@ nav ul li a {
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(149, 149, 174), 0 0 5px rgb(192, 192, 212);
 }
 
+.logo-animation {
+
+    position: relative;
+    left: 3.8vw;
+    bottom: 1vw;
+}
+
 
 .Icon {
 
-    height: 124px;
-    width: 124px;
+    max-height: 124px;
+    max-width: 124px;
     position: relative;
     left: 35vw;
     top: 55vw;
@@ -73,8 +81,8 @@ nav ul li a {
 
 .Icon2 {
 
-    height: 90px;
-    width: 90px;
+    max-height: 90px;
+    max-width: 90px;
     position: relative;
     left: 44vw;
     top: 54vw;
@@ -135,7 +143,7 @@ nav ul li a {
     background-color: #2a2b45;
     position: relative;
     height: 10vw;
-    margin-top: 100vw;
+    margin-top: 120vw;
     clear: both;
 }
 
@@ -156,3 +164,25 @@ nav ul li a {
     left: 40vw;
     top: 3vw;
 }
+
+
+.BgContact {
+    margin: 0px;
+    position: relative;
+    border-radius: 90px;
+    left: 27vw;
+    top: 90vw;
+    max-width: 800px;
+    max-height: 400px;
+}
+
+.contact {
+
+    position: relative;
+
+    left: 37vw;
+    top: 76vw;
+
+}
+
+.contact-bg {}
